@@ -1,4 +1,4 @@
-class Area
+ class Area
 {
 static void fun1()
 {
