@@ -5,12 +5,12 @@ public class Sample {
         double doubleMax=1.79769313486231570e+308d;//8 bytes
         double doubleMin=3.40282346638528860e-324d;
         System.out.println(max);
-        System.out.printf("%2f\n",max);
-        //System.out.printf("%2f\n",min);
+        System.out.printf("%2f",max);
+        System.out.printf("%2f",min);
 
-        //System.out.println(doubleMax);
-        //System.out.printf("%2f\n",doubleMax);
-        //System.out.printf("%2f\n",doubleMax);
+        System.out.println(doubleMax);
+        System.out.printf("%2f",doubleMax);
+        System.out.printf("%2f",doubleMax);
     }
     
 }
