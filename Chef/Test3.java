@@ -15,7 +15,7 @@ public class Test3
       
       System.out.println("Your name is:"+name);
       System.out.println("Your age is:"+age);
-      System.out.println("Your favourite food is"+ food);
+      System.out.println("Your favourite food is"+ food);  
       
       
     }

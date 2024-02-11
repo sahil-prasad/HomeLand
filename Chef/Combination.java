@@ -1,4 +1,4 @@
- import java.util.Scanner;
+import java.util.Scanner;
 public class Combination
 {
     public static void main(String[] args)
@@ -33,7 +33,7 @@ public class Combination
         {System.out.println("Substring from?");
         int b;
         b=sc.nextInt();
-        System.out.println(name.substring(b)); }
+        System.out.println(name.substring(b));}
 
 
     }
