@@ -28,7 +28,8 @@ class Interface4
 {
 public static void main(String []args)
 {
-
+//c1 x1=new c1();
+  //c1.f2();
 i2.f2();
 }
 }
