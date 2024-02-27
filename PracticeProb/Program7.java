@@ -1,5 +1,6 @@
 import java.util.Scanner;
 class One
+
 {
     static void sumCubes(int a,int b)
     {
@@ -7,9 +8,10 @@ class One
      {
         for(int i=a;i<=b;i+=2)
         {
+            int sum;
            int cube=i*i*i;
            System.out.println("cube of "+i+" : "+cube);
-           int sum=+cube;
+           sum=sum+cube;
            System.out.println("Sum of cube till "+b+ "is "+sum);
         }
     }
@@ -17,9 +19,10 @@ class One
     {
         for(int i=a+1;i<=b;i+=2)
         {
+           int sum;
            int cube=i*i*i;
            System.out.println("cube of "+i+" : "+cube);
-           int sum=+cube;
+           sum=sum+cube;
            System.out.println("Sum of cube till "+b+ "is "+sum);
         }
     }
@@ -33,5 +36,6 @@ class Program7
         int a=sc.nextInt();
         int b=sc.nextInt();
         One.sumCubes(a, b);
+        
     }
 }
