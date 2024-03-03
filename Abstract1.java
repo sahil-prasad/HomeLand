@@ -29,3 +29,6 @@ d1.f3();
 
 }
 }
+
+
+public static void main(String []args)
