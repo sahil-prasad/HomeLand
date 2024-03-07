@@ -8,22 +8,24 @@ class One
      {
         for(int i=a;i<=b;i+=2)
         {
-            int sum;
+           int sum2=0;
            int cube=i*i*i;
            System.out.println("cube of "+i+" : "+cube);
-           sum=sum+cube;
-           System.out.println("Sum of cube till "+b+ "is "+sum);
+           int sum2=+cube;
+           System.out.println("Sum of cube till "+a+ "is "+sum2);
+	a++;
         }
     }
     else
     {
         for(int i=a+1;i<=b;i+=2)
         {
-           int sum;
+           int sum1=0;
            int cube=i*i*i;
            System.out.println("cube of "+i+" : "+cube);
-           sum=sum+cube;
-           System.out.println("Sum of cube till "+b+ "is "+sum);
+           sum1=+cube;
+           System.out.println("Sum of cube till "+b+ "is "+sum1);
+	a++;
         }
     }
     }
